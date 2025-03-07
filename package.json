@@ -1,0 +1,20 @@
+{
+  "name": "cypress-mark",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:headless": "cypress run"
+  },
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.33.0",
+    "cypress": "^14.1.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "author": "Marcelino de Oliveira",
+  "license": "MIT"
+}
